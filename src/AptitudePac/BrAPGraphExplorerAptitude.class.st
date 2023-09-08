@@ -1,3 +1,15 @@
+"
+Adding this aptitude to an element
+	 allows you to explore the other elements that the element is connected to,
+	 hides unrelated elements,
+	 increases your focus.
+
+Use the following to interact with the element
+   ** Alt and hover**  shows only the connected elements of the element selected.
+    **Ctrl and Alt hover** adds more connected edges and elements.
+    **Shift and hover**  shows all elements
+ {{gtExample:name=BrAPGraphExplorerAptitude>>lepiterPageExplorer|previewExpanded|noCode }}
+"
 Class {
 	#name : #BrAPGraphExplorerAptitude,
 	#superclass : #BrAptitude,

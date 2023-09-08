@@ -1,3 +1,10 @@
+"
+Adding this aptitude to a `BrCanvassableElement`
+	 allows you to use the mousewheel to zoom in/out
+	 use Alt to speedup zooming
+	 
+{{gtExample:name=BrAPCanvasZoomAptitude>>lepiterPageExplorer| noCode}}
+"
 Class {
 	#name : #BrAPCanvasZoomAptitude,
 	#superclass : #BrAptitude,

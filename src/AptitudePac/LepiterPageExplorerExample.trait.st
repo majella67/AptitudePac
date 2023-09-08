@@ -17,8 +17,8 @@ LepiterPageExplorerExample classSide >> lepiterPageExplorer [
 						ifTrue: [ Color red ]
 						ifFalse: [ Color black ]);
 				size: 5 @ 5;
-				addAptitude: (BrGraphExplorerAptitude highlightColor: (Color orange alpha: 0.5))
-						+ (BrPageTooltipAptitude new page: each);
+				addAptitude: (BrAPGraphExplorerAptitude new highlightColor: (Color orange alpha: 0.5))
+						+ (BrAPPageTooltipAptitude new page: each);
 				when: BlClickEvent
 					do: [ :e | e currentTarget phlow spawnTool: each asPhlowTool ] ];
 		with: pages.
@@ -31,5 +31,5 @@ LepiterPageExplorerExample classSide >> lepiterPageExplorer [
 	m layout force nbIterations: 30.
 	^ m asElement
 		childrenScaleFactor: 2;
-		addAptitude: BrCanvasZoomAptitude new
+		addAptitude: BrAPCanvasZoomAptitude new 
 ]
