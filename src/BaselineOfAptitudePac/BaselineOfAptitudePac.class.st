@@ -9,7 +9,6 @@ BaselineOfAptitudePac >> baseline: spec [
 	<baseline>
 		^ spec for: #common do: [
 			spec package: 'Aptitude-Pac'..
-			spec package: 'Aptitude-Pac'.
-			spec package: 'AptitudePac'
+			spec package: 'Aptitude-Pac'
 		]
 ]
