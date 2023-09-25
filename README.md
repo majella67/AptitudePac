@@ -18,7 +18,7 @@ A collection of `BrAptitudes` for Glamorous Toolkit
 **BrAPCanvasZoomAptitude**
 
 
-	Adding this aptitude to a `BrZoomableElement` allows you to use the mousewheel to zoom in/out.
+	Adding this aptitude to a `BlZoomableElement` allows you to use the mousewheel to zoom in/out.
  	Use Alt to speedup zooming
 
 **BrAPPageTooltipAptitude**
